@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html{
+  font-size: 62.56%;
+}
+  
+  .RechargeBill-main-container{
+    width: 100%; 
+    /* height: 90vh;  */
+    /* margin-top: -2rem;  */
+    box-sizing: border-box; 
+    margin-bottom: -2rem; 
+    
+  }
+  .recharge_book_heading{
+    text-align: center;
+    padding-top: 2rem;
+    color: #fff;
+    font-size: 3rem;
+    
+  }
+  
+  .RechargeBill-data-div{
+    /* height: 30rem; */
+    /* width: 18rem; */
+    padding: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .RechargeBill-data-div:hover{
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgba(7, 95, 122, 0.25);
+    transition: all .3s ease;
+  }
+  #bookPay-extra-hover:hover{
+    background-color: #0f57a3;
+  }
+  
+  .RechargeBill-sub-container{
+    background-color: #0ea0cc;
+  }
+  .full-width{
+    background-color: #0f4a8a;
+    
+  }
+  
+  
+  .RechargeBill-data-div span{
+    display: block;
+    color: #fff;
+    font-size: 1.8rem;
+    /* font-weight: bold; */
+    line-height: 2.5rem;
+    /* letter-spacing: 0.05rem; */
+  } 
+  
+  #rechargeBillPay-fontawesome{
+    font-size: 3.5rem !important;
+    /* color: var(--primary-color); */
+    color: #00baf2;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #fff;
+    /* display: grid; */
+    place-items: center;
+    margin-bottom: 1rem;
+    padding-top: 1.5rem;
+  }
+  
+  @media (max-width:998px){
+    .RechargeBill-data-div{
+      /* height: 30rem; */
+      width: 15rem;
+      
+    }
+  }
+  @media (max-width:370px){
+    .RechargeBill-data-div{
+      /* height: 30rem; */
+      width: 14rem;
+      margin-left: 0.6rem;
+      
+    }
+  }
+  
