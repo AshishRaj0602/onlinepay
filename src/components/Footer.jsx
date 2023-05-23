@@ -44,19 +44,24 @@ function Footer() {
                                 {/* <h2><li><NavLink className="nav-link active" aria-current="page" to="#">FallowUs</NavLink></li></h2> */}
                                     <div className="row mt-3">
                                         <div className="col-3 mx-auto">
-                                            <i className="fa fa-instagram  fontawesome-style"></i>
+                                        <a href="https://github.com/AshishRaj0602" rel="noreferrer" target='_blank'>
+                                            <i className="fa fa-github  fontawesome-style"></i>
+                                        </a>
                                         </div>
 
-                                        <div className="col-3 mx-auto">
+                                        {/* <div className="col-3 mx-auto">
                                             <i className="fa fa-whatsapp fontawesome-style"></i>
                                         </div>
 
                                         <div className="col-3 mx-auto">
                                             <i className="fa fa-facebook-f fontawesome-style"></i>
-                                        </div>
+                                        </div> */}
 
                                         <div className="col-3 mx-auto">
+                                            <a href="https://www.linkedin.com/in/ashish-rajpoot-5b6614256" rel="noreferrer" target='_blank'>
+
                                             <i className="fa fa-linkedin fontawesome-style"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

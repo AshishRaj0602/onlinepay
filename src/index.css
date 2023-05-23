@@ -20,6 +20,7 @@ a {
   text-decoration: none;
   color: #fff;
 }
+
 h1,
 h2,
 h3,
@@ -88,6 +89,9 @@ h6 {
   color: #fff;
   background-color: var(--primary-color);
   /* color: var(--bgcolor); */
+}
+.nav-item > .active{
+  color: #00baf2 !important;
 }
 
 /* navbar end */
