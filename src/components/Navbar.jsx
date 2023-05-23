@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-const Navbar = () => {
+const Navbar = (props) => {
     const [show, setShow] = useState(false)
     return (
         <>
@@ -34,11 +34,13 @@ const Navbar = () => {
 
 
                             </ul>
-                            <form className="d-flex">
+                            {
+                                props.userName?<div id="username">{props.userName}</div>:<form className="d-flex">
 
-                                <button className="btn  btn-style" type="submit">LogIn</button>
-                                <button className="btn  btn-style btn-style-border" type="submit">SingUp</button>
+                                <NavLink className="btn  btn-style" to="/login">LogIn</NavLink>
+                                <NavLink className="btn  btn-style btn-style-border" to="/login">SingUp</NavLink>
                             </form>
+                            }
                         </div>
                     </div>
                 </nav>

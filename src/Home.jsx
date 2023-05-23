@@ -9,10 +9,10 @@ import Footer from "./components/Footer";
 import AboutUs2 from "./components/AboutUs2";
 import RechargePay from "./components/RechargePay";
 
-const Home=()=> {
+const Home=(props)=> {
   return (
     <>
-      <Navbar />
+      <Navbar userName={props.userName}/>
       <Header />
       <RechargePay/>
       <HowWorks/>

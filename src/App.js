@@ -6,6 +6,7 @@ import Contact from './Pages/Contact'
 import Error from './Pages/Error'
 import Service from './Pages/Service'
 import Recharge from './Pages/Recharge'
+import Model from './components/Model'
 const App = () => {
   return (
     <>
@@ -16,6 +17,8 @@ const App = () => {
         <Route path="/service" component={Service}></Route>
         <Route path="/contact" component={Contact}></Route>
         <Route path="/error" component={Error}></Route>
+        <Route path="/login" component={Model}></Route>
+        <Route path="/error" component={Model}></Route>
       </Switch>
     </>
   )
