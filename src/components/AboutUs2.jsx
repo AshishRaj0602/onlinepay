@@ -2,7 +2,7 @@ import React from 'react'
 import howToUse2Api from "../API/AboutUs2Api"
 const AboutUs2 = () => {
     // const [use2Api, setHowToUseApi] = useState(howToUse2Api)
-    const [use2Api, setuse2Api] = React.useState(howToUse2Api)
+    // const [use2Api, setuse2Api] = React.useState(howToUse2Api)
     return (
         <>
             <section className="common-section" id="remove-sec-about">
@@ -15,7 +15,7 @@ const AboutUs2 = () => {
                             </h3>
                             <h1 className="main-heading">Do more of what you always wanted</h1>
                             {
-                                use2Api.map((ele, index) => {
+                                howToUse2Api.map((ele, index) => {
                                     return (
                                         <div className="row" key={index} id="our-services-info-aboutUs2" >
 

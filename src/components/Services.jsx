@@ -1,10 +1,10 @@
-import React,{useState} from 'react'
+import React from 'react'
 import ServiceApi from "../API/ServicesApi"
 // import FontAwesome from '../react-fontawesome';
 
 // import FontAwesome from "../../node_modules/font-awesome"
 const Services = () => {
-    const [serviceApi, setserviceApi] = useState(ServiceApi)
+    // const [serviceApi, setserviceApi] = useState(ServiceApi)
     // console.log({serviceAPi});
     return (
         <>
@@ -14,7 +14,7 @@ const Services = () => {
                     <div className="row">
                     
                        {
-                           serviceApi.map((ele,index)=>{
+                           ServiceApi.map((ele,index)=>{
                                return (
                                
                                 <div className="col-11 col-lg-4 col-xxl-4 work-container-subdiv" key={index}>

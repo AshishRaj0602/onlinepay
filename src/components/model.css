@@ -70,7 +70,7 @@ h2{
     position:relative;
     display:flex;
     align-items: center;
-    justify-content: start;
+    /* justify-content: start; */
 }
 .input_text{
     width: 95%;

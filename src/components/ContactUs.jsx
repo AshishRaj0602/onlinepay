@@ -1,6 +1,6 @@
 // eslint-disable-next-line
 import React, { useState } from 'react'
-import withReactContent from "sweetalert2-react-content"
+// import withReactContent from "sweetalert2-react-content"
 import Swal from "sweetalert2"
 const ContactUs = () => {
     const [userData, setuserData] = useState({
@@ -122,9 +122,9 @@ const ContactUs = () => {
                                                 <input type="text" placeholder="Your Message" className="form-control" name="message" value={userData.message} onChange={postUserData} />
                                             </div>
                                         </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" />
-                                            <label class="form-check-label" for="flexCheckChecked" className="main-hero-para">
+                                        <div className="form-check">
+                                            <input className="form-check-input" type="checkbox" />
+                                            <label className="form-check-label main-hero-para" htmlFor="flexCheckChecked">
                                                 Grow your business by adding with us
                                             </label>
                                         </div>

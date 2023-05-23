@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import howToUseApi from "../API/AboutUsApi"
 const AboutUs = () => {
-    const [useApi, setHowToUseApi] = useState(howToUseApi)
-    console.log({ useApi });
+    // const [useApi, setHowToUseApi] = useState(howToUseApi)
+    // console.log({ useApi });
     return (
         <>
             {/* 1st section about us */}
@@ -18,7 +18,7 @@ const AboutUs = () => {
                             </h3>
                             <h1 className="main-heading">Why Us ?</h1>
                             {
-                                useApi.map((ele, index) => {
+                                howToUseApi.map((ele, index) => {
                                     return (
                                         <div className="row our-services-info" key={index}>
 
