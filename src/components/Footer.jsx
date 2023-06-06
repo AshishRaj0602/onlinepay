@@ -68,7 +68,7 @@ function Footer() {
                             </div>
                             <hr />
                             <div className="m-5">
-                                <p className="main-hero-para text-center w-100">Copyright @ 2021 OnlinePay . All right reserved.</p>
+                                <p className="main-hero-para text-center w-100">Copyright @ 2023 OnlinePay . All right reserved.</p>
                             </div>
                         </div>
                     </div>
