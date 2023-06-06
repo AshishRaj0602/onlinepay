@@ -26,7 +26,7 @@ const AboutUs = () => {
                                                 {ele.id}
                                             </div>
                                             <div className="col-10 our-services-data">
-                                                <h2>{ele.title}</h2>
+                                                <h2 className='heading_title'>{ele.title}</h2>
                                                 <p className="main-hero-para">{ele.info}</p>
                                             </div>
                                         </div>
